@@ -32,7 +32,7 @@
     content: "";
     width: 0;
     height: 5px;
-    background-color: tomato;
+    background-color: #0F243F;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -54,5 +54,9 @@ h1, h2, h3 {
 }
 
 .navigation ul li a {
-    color: black;
+    color: white;
+}
+
+.navigation ul li a:hover {
+
 }
