@@ -52,3 +52,7 @@ h1, h2, h3 {
     font-family: 'Nixie One', cursive;
     font-weight: bold;
 }
+
+.navigation ul li a {
+    color: black;
+}
