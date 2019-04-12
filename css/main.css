@@ -60,3 +60,27 @@ h1, h2, h3 {
 .navigation ul li a:hover {
 
 }
+
+.display-1 {
+    font-size: 10rem;
+}
+
+.Mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .estatico {
+        position: static;
+    }
+    .display-1 {
+        font-size: 5rem;
+    }
+    .Desktop {
+        display: none;
+    }
+    .Mobile {
+        display: block;
+    }
+}
+

@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 
-    <!--CSS y JS de Bootstrap-->
+    <!--CSS de Bootstrap-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
     <link rel="stylesheet" href="css/main.css"/>
     
 
@@ -18,7 +20,7 @@
 
 <!--Barra de la izquierda-->
 
-    <div class="container estatico col-md-3">
+    <div class="container estatico col-md-3 col-sm-1">
         <img src="images/FotoPerfil.jpg" class="img-fluid rounded-circle p-3 mt-5" alt="Responsive image">
         <nav class="nav flex-column text-center navigation">
             <ul>
@@ -40,7 +42,7 @@
 
         <div class="container" id="SobreMi">
             <h2 class="p-5">Hola,</h2>
-            <h1 class="display-1 mb-5 ml-5 pb-5" style="font-size: 10rem;">Soy Luis</h1>
+            <h1 class="display-1 mb-5 ml-5 pb-5">Soy Luis</h1>
             <div class="container pl-5">
                 <p>Soy de Monterrey</p>
                 <p>De chavo estuve en el seminario</p>
@@ -67,57 +69,47 @@
 
         <div class="container" id="Software">
             <h2 class="p-5" data-aos="zoom-out">software y herramientas de trabajo</h2>
+
             <div class="container pl-5">
                 <div class="row">
-                    <p class="col-md-5" style="margin-bottom: 5px;">MS Excel Avanzado</p>
-                    <p class="col-md-5 offset-md-1" style="margin-bottom: 5px;">Bases de datos SQL</p>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">MS Excel Avanzado</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0; padding-top: 0">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Bases de datos SQL</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container pl-5">
-            <div class="row pl-4">
-                <div class="col-md-5 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="col-md-5 offset-md-1 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container pl-5 pt-3">
+            <div class="container pl-5">
                 <div class="row">
-                    <p class="col-md-5" style="margin-bottom: 5px;">VBA for Applications</p>
-                    <p class="col-md-5 offset-md-1" style="margin-bottom: 5px;">html5, css3, js</p>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">VBA for Applications</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">html, css3, js</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container pl-5">
-            <div class="row pl-4">
-                <div class="col-md-5 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="col-md-5 offset-md-1 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container pl-5 pt-3">
+            <div class="container pl-5">
                 <div class="row">
-                    <p class="col-md-5" style="margin-bottom: 5px;">Google Analitics</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container pl-5">
-            <div class="row pl-4">
-                <div class="col-md-5 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Google Analitics, Google Ads, Facebook Ads Manager</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,41 +118,37 @@
 
         <div class="container" id="Idiomas">
             <h2 class="p-5" data-aos="zoom-out">idiomas</h2>
+
             <div class="container pl-5">
                 <div class="row">
-                    <p class="col-md-5" style="margin-bottom: 5px;">Español</p>
-                    <p class="col-md-5 offset-md-1" style="margin-bottom: 5px;">Inglés</p>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Español</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0; padding-top: 0">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Inglés</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container pl-5">
-            <div class="row pl-4">
-                <div class="col-md-5 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="col-md-5 offset-md-1 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="container pl-5 pt-3">
+            <div class="container pl-5">
                 <div class="row">
-                    <p class="col-md-5" style="margin-bottom: 5px;">Francés</p>
-                    <p class="col-md-5 offset-md-1" style="margin-bottom: 5px;">Italiano</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container pl-5">
-            <div class="row pl-4">
-                <div class="col-md-5 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="col-md-5 offset-md-1 progress" style="padding-left: 0px; padding-right: 0;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Francés</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <p style="margin-bottom: 0;">Itialiano</p>
+                        <div class="progress" style="padding-left: 0px; padding-right: 0;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,9 +157,11 @@
 
         <div class="container" id="EducaExp">
             <h2 class="p-5" data-aos="zoom-out">educación y experiencia</h2>
-            </div>
+        </div>
 
-        <div class="container Linea2" style="color: black;">
+<!--Version Desktop-->
+
+        <div class="container Linea2 Desktop" style="color: black;">
             <div class="row">
                 <div class="col-md-4 offset-md-1 p-3 mb-5 bg-white rounded">
                     <h5 class="text-center">Licenciatura en filosofía</h5>
@@ -231,30 +221,111 @@
                         <p>2015</p>
                     </div>
                 </div>
-                <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                <div class="col-md-4 shadow p-3 mb-3 bg-white rounded">
                     <h5 class="text-center">Gerente de Administración y Operaciones</h5>
                     <p class="text-center"><i>Asesores en Proyectos Patrimoniales<br>2015-2018</i></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 offset-md-7 shadow p-3 mb-5 bg-white rounded">
+                <div class="col-md-4 offset-md-7 shadow p-3 bg-white rounded">
                     <h5 class="text-center">Administrador de medios y Media Planner</h5>
                     <p class="text-center"><i>V09 & Co<br>2015-presente</i></p>
                 </div>
             </div>
+        </div>
+
+<!--Versión Mobile-->
+
+        <div class="container Linea2 Mobile" style="color: black;">
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-3">
+                        <div class="container bg-white p-1 pt-3 rounded">
+                            <h5>Roma</h5>
+                            <p>2004</p>
+                        </div>
+                    </div>                    
+                    <div class="col-sm-12 p-3 mb-5 bg-white rounded">
+                        <h5 class="text-center">Licenciatura en filosofía</h5>
+                        <p class="text-center"><i>1er año</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-3">
+                        <div class="container bg-white p-1 pt-3 rounded">
+                            <h5>Madrid</h5>
+                            <p>2005</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 shadow p-3 mb-5 bg-white rounded">
+                        <h5 class="text-center">Administrador y Project Manager</h5>
+                        <p class="text-center"><i>Legionarios de Cristo ONG</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-3">
+                        <div class="container bg-white p-1 pt-3 rounded">
+                            <h5>Roma</h5>
+                            <p>2008</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 shadow p-3 mb-3 bg-white rounded">
+                        <h5 class="text-center">Licenciatura en filosofía</h5>
+                        <p class="text-center"><i>2o a 4o año (2008-2011)</i></p>
+                    </div>
+                    <div class="col-sm-12 shadow p-3 mb-5 bg-white rounded">
+                        <h5 class="text-center">Administrador en Dirección <br> General</h5>
+                        <p class="text-center"><i>Legionarios de Cristo ONG<br>2008-2014</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-3">
+                        <div class="container bg-white p-1 pt-3 rounded">
+                            <h5>Madrid</h5>
+                            <p>2014</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 shadow p-3 mb-5 bg-white rounded">
+                        <h5 class="text-center">Administrador y Project Manager</h5>
+                        <p class="text-center"><i>Legionarios de Cristo ONG</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-3">
+                        <div class="container bg-white p-1 pt-3 rounded">
+                            <h5>Monterrey</h5>
+                            <p>2015</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 shadow p-3 mb-3 bg-white rounded">
+                        <h5 class="text-center">Gerente de Administración y Operaciones</h5>
+                        <p class="text-center"><i>Asesores en Proyectos Patrimoniales<br>2015-2018</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 shadow p-3 bg-white rounded">
+                        <h5 class="text-center">Administrador de medios y Media Planner</h5>
+                        <p class="text-center"><i>V09 & Co<br>2015-presente</i></p>
+                    </div>
+                </div>
         </div>
 <!--
         <div class="container" id="Hobbies">
             <h2 class="p-5">hobbies</h2>    
         </div>
 -->
+<br>
     </div>
+
+
+<!--JS Animación-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+<!--JS Bootstrap-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 </body>
 </html>
