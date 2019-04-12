@@ -1,0 +1,54 @@
+.botas{
+    background-image: url("../images/Botas.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Linea2 {
+    background: #fff;	
+    background: linear-gradient(180deg,#969696, #969696,#969696);
+    background-position: 50%;
+    background-repeat: repeat-y;
+    background-size: 3px auto;
+}
+
+.estatico {
+    height: 100%;
+    position: fixed;
+    background-color: #717A81;
+    color: 020B1E;
+}
+
+.derecho {
+    background-color: #0F243F;
+    color: #fff;
+}
+
+.navigation ul li {
+    list-style: none;
+    position: relative;
+}
+
+.navigation ul li a::before {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: tomato;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.navigation ul li:hover a::before {
+    width: 100%;
+}
+
+.navigation ul {
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Nixie One', cursive;
+    font-weight: bold;
+}
